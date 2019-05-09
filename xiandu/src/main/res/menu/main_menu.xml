@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/today" android:icon="@mipmap/ads_data"  android:title="每日闲读" ></item>
+    <item android:id="@+id/reade" android:icon="@drawable/home_drawable"  android:title="首页"></item>
+    <item android:id="@+id/fine" android:icon="@drawable/hot_drawable" android:title="每日阅读"></item>
+    <item android:id="@+id/recomend" android:icon="@drawable/mine_drawable" android:title="推荐"></item>
+</menu>

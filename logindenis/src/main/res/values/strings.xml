@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoginDenis</string>
+    <array name="starArray">
+        <item>金星</item>
+        <item>木星</item>
+        <item>水星</item>
+        <item>火星</item>
+        <item>地球</item>
+        <item>天王星</item>
+        <item>冥王星</item>
+    </array>
+</resources>

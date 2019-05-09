@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TestView">
+        <attr name="text" format="string"></attr>
+        <attr name="text_boolean" format="boolean"></attr>
+        <attr name="text_integer" format="integer"></attr>
+        <attr name="text_enum" format="enum">
+            <enum name="top" value="1"></enum>
+            <enum name="bottom" value="2"></enum>
+        </attr>
+        <attr name="str_dimension" format="dimension"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="color" format="color"></attr>
+        <attr name="line_width" format="dimension"></attr>
+        <attr name="radius" format="dimension"></attr>
+        <attr name="android:text"></attr>
+        <attr name="android:textSize"></attr>
+        <attr name="android:progress"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Main2Activity">
+    <Button
+            android:text="点击与长按"
+            android:id="@+id/btn_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <CheckBox android:layout_width="wrap_content"
+              android:text="打球"
+              android:id="@+id/check_play"
+              android:layout_height="wrap_content"/>
+    <CheckBox
+            android:id="@+id/check_run"
+            android:layout_width="wrap_content"
+            android:text="跑步"
+            android:layout_height="wrap_content"/>
+    <RadioGroup
+            android:id="@+id/btn_group"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+                android:id="@+id/radio_man"
+                android:text="男"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:id="@+id/radio_woman"
+                android:text="女"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:text="check_lotus"
+                android:id="@+id/check_plant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/template_btn"
+                android:text="模板类的使用"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <TextView
+
+                android:id="@+id/text_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

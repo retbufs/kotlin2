@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@color/blue"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+    <RelativeLayout
+            android:id="@+id/rl_search_box"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_margin="8dp"
+            android:layout_toLeftOf="@id/contacts"
+            android:layout_width="match_parent"
+            android:background="@drawable/shape_search"
+            android:layout_height="match_parent">
+        <ImageView
+                android:id="@+id/iv_icon_search"
+                android:src="@drawable/icon_search"
+                android:layout_width="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_height="20dp"/>
+        <EditText
+                android:background="@null"
+                android:layout_toRightOf="@id/iv_icon_search"
+                android:layout_width="match_parent"
+                android:hint="搜索商品"
+                android:paddingLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textColorHint="@color/white"
+                android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <ImageView
+            android:id="@+id/contacts"
+            android:layout_toLeftOf="@id/iv_plus"
+            android:src="@drawable/icon_contact"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="20dp"/>
+
+    <ImageView android:layout_width="20dp"
+               android:id="@+id/iv_plus"
+               android:layout_height="20dp"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_marginRight="5dp"
+               android:src="@drawable/icon_plus"/>
+
+
+</RelativeLayout>

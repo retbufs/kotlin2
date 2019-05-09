@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <Button
+            android:id="@+id/toLogin"
+            android:text="登入"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <!--dialog 模式  -->
+    <Spinner
+            android:spinnerMode="dialog"
+            android:id="@+id/statr_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <!--<ListView android:id="@+id/list_item"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_width="wrap_content">-->
+
+    <!--</ListView>-->
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+        <Button
+                android:id="@+id/spinner_dialog"
+                android:text="spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/btn_list_view"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/spinner_dialog"
+                android:text="List_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/btn_grid_view"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/btn_list_view"
+                android:text="grid_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/btn_grid2_view"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/btn_grid_view"
+                android:text="grid_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/btn_recycler_view"
+                android:layout_below="@id/btn_grid_view"
+                android:text="线性表格布局"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/btn_recyclergrid_view"
+                android:layout_marginLeft="20dp"
+                android:layout_alignTop="@id/btn_recycler_view"
+                android:layout_toRightOf="@id/btn_recycler_view"
+                android:text="循环表格布局"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/btn_staggered_view"
+                android:layout_marginLeft="20dp"
+                android:layout_alignTop="@id/btn_recycler_view"
+                android:layout_toRightOf="@id/btn_recyclergrid_view"
+                android:text="瀑布流布局"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        <Button
+                android:layout_marginTop="20dp"
+                android:text=""
+                android:id="@+id/btn_desidget"
+                android:layout_below="@id/btn_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+    </Button>
+
+    </RelativeLayout>
+</LinearLayout>

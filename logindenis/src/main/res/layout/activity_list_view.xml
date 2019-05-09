@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ListViewActivity">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+        <TextView
+                android:id="@+id/tv_head"
+                android:gravity="center"
+                android:text="分割线效果"
+                android:textColor="@color/black"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"/>
+        <Spinner
+
+                android:layout_toRightOf="@id/tv_head"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+        </Spinner>
+        <TextView
+                android:id="@+id/tv_spinner"
+                tools:text="选择分割效果"
+                android:gravity="center"
+                android:paddingRight="10dp"
+                android:layout_toRightOf="@id/tv_head"
+                android:drawableRight="@drawable/arrow_down"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>
